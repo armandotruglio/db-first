@@ -1,0 +1,15 @@
+Nome tabella: cars
+
+license_plate       VARCHAR(255)            NOT_NULL        PRIMARY_KEY
+brand               VARCHAR(255)            NOT_NULL       
+model               VARCHAR(255)            NULL
+production_year     UNSIGNED SMALLINT       NOT_NULL
+mileage             UNSIGNED MEDIUMINT      NOT_NULL
+price               FLOAT(7,2)              NOT_NULL
+color               VARCHAR(255)            NULL
+fuel_type           VARCHAR(255)            NOT_NULL
+doors_number        UNSIGNED TINYINT        NULL
+description         TEXT                    NULL
+available           BOOLEAN                 NOT_NULL        DEFAULT(true)
+in_stock            UNSIGNED TINYINT        NOT_NULL
+
