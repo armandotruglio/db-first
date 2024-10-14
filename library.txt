@@ -1,4 +1,4 @@
-Nome tabella: cars
+Table name: used_cars
 
 license_plate       VARCHAR(255)            NOT_NULL        PRIMARY_KEY
 brand               VARCHAR(255)            NOT_NULL       
